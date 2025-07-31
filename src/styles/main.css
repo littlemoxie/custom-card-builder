@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+body {
+  @apply bg-slate-900 text-slate-50;
+}
